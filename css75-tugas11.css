@@ -1,0 +1,50 @@
+header, footer {
+    background-color: black;
+}
+
+main{
+  background-color: #F1F1F1;
+  padding: 20px 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 15px;
+    margin-bottom: 2px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.judul {
+    margin: 10px;
+}
+
+p {
+    margin: 20px 10px;
+    column-width: 200px;
+    column-fill:  balance;
+    column-count: 4;
+    column-rule: 1px solid black;
+    column-span: all;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
